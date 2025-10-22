@@ -30,7 +30,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['*']
 
 CORS_ALLOW_ALL_ORIGINS = True
-CSRF_TRUSTED_ORIGINS = ['http://stout.diyorbek-dev.uz']
+CSRF_TRUSTED_ORIGINS = ['http://stout.diyorbekdev.uz']
 
 # Application definition
 
