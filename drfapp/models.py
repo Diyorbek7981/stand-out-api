@@ -8,8 +8,8 @@ class User(models.Model):
     age = models.PositiveIntegerField(blank=True, null=True)
     certificate = models.CharField(max_length=20, blank=True, null=True)
     phone_number = models.CharField(max_length=20, blank=True, null=True)
-    is_channel_member = models.BooleanField(default=False)
     is_registered = models.BooleanField(default=False)
+    is_confirmed = models.BooleanField(default=False)
     language = models.CharField(max_length=20, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
